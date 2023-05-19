@@ -23,17 +23,15 @@ function TwitterCard(props : any) {
 */
 
 export default function Twinfo() {
-  console.log("stepbeg")
   try {
     const userResponse = getFollowers();
   } catch (error) {
     console.log("error")
   }
-  console.log("stepend")
 
   return (
     <div>
-      <h2>Twitter Card</h2>
+      <h2>Twitter Data</h2>
     </div>
   )
 }

@@ -11,6 +11,7 @@ export default function Middle() {
     <div className={styles.signedInStatus}>
     {session?.user && (
      <>
+       <h1>LIst of Actions</h1><br/><br/>
        <Link href="/twinfo">
          <p>Step 1: Twitter Data  Fetch &rarr;</p>
        </Link>
@@ -20,7 +21,7 @@ export default function Middle() {
        </Link>
 
        <Link href="https://cpone-starmint.vercel.app">
-         <p>Step 3: NFT Minting with Endorsement &rarr;</p>
+         <p>Step 3: NFT Minting with ZKP &rarr;</p>
        </Link>
      </>
      )}
